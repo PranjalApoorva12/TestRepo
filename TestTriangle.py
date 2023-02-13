@@ -8,7 +8,6 @@ The primary goal of this file is to demonstrate a simple unittest implementation
 """
 
 import unittest
-from HW00 import my_brand
 
 from Triangle import classifyTriangle
 
