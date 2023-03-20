@@ -10,7 +10,8 @@ jobs:
         - run:
             command: |
                 pip install pytest
-                python -m unittest TestTriangle.py
+                pip install requests
+                pytest --junitxml=test-results/junit.xml HW04a_Test.py
         - store_test_results:
             path: test-results
 workflows:
